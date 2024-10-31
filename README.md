@@ -29,6 +29,6 @@ el servidor Spring funciona correctamente y responde a las Url solicitdas:
 
 # faltante
 
--subir servicioa la nube
--complementar modulo Búsqueda Binaria
--Delegacion mediante Proxy para los servicios backend.
+* subir servicioa la nube
+* complementar modulo Búsqueda Binaria
+* Delegacion mediante Proxy para los servicios backend.
