@@ -4,6 +4,7 @@ package com.eci.parcial2.controller;
 import java.awt.*;
 import java.util.concurrent.atomic.AtomicLong;
 
+import com.eci.parcial2.services.SearchRc;
 import com.eci.parcial2.services.linearSearchC;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,13 +21,16 @@ public class GreetingController {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
         
-        @GetMapping("/linearSearch")
-        public String linearSearch(@RequestParam(value = "list")String lista, @RequestParam(value = "value" )long numero ) {
+	@GetMapping("/linearSearch")
+	public SearchRc linearSearch(@RequestParam(value = "list")String lista, @RequestParam(value = "value" )long numero ) {
 
-			return  new linearSearchC().linearSearchFunction(lista, numero);
+		return  new linearSearchC().linearSearchFunction(lista, numero);
 
 
-		}
+	}
+
+
+
         
         
 }
