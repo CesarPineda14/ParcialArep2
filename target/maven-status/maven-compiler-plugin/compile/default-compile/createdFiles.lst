@@ -1,0 +1,5 @@
+com\eci\parcial2\Parcial2.class
+com\eci\parcial2\controller\Greeting.class
+com\eci\parcial2\controller\GreetingController.class
+com\eci\parcial2\services\HttpConnection.class
+com\eci\parcial2\services\linearSearch.class
