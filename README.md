@@ -27,6 +27,17 @@ el servidor Spring funciona correctamente y responde a las Url solicitdas:
 
 ![image](https://github.com/user-attachments/assets/d316a584-d75f-4071-adc8-db4618e82271)
 
+# Búsqueda Binaria
+
+
+![image](https://github.com/user-attachments/assets/239bda0b-7895-49fc-be2d-19751af9df5c)
+
+
+![image](https://github.com/user-attachments/assets/fc10e586-6064-4add-a025-3e95cf2232de)
+
+
+Se logran crear los archivos de ervicio y funcion de controlador para ejecucion del servicio, falto finalizar logica de busqueda Binaria
+
 # faltante
 
 * subir servicioa la nube
